@@ -37,7 +37,7 @@ const Feature = () => {
     },
     {
       heading: "150+",
-      sub_Heading: "Partner Institutions",
+      sub_Heading: "Global Partners",
     },
     {
       heading: "99.9%",

@@ -119,7 +119,7 @@ const ContactForm = () => {
           name="firstName"
           value={formData.firstName}
           onChange={handleChange}
-          className="mt-1 w-full px-3 py-2 border border-gray-300 rounded text-sm focus:outline-none focus:ring-1 focus:ring-blue-500"
+          className="mt-1 w-full px-3 py-2 border border-gray-300 rounded text-sm focus:outline-none focus:ring-1 focus:ring-[#122B51]"
         />
         {errors.firstName && (
           <p className="text-red-500 text-xs mt-1">{errors.firstName}</p>
@@ -136,7 +136,7 @@ const ContactForm = () => {
           name="lastName"
           value={formData.lastName}
           onChange={handleChange}
-          className="mt-1 w-full px-3 py-2 border border-gray-300 rounded text-sm focus:outline-none focus:ring-1 focus:ring-blue-500"
+          className="mt-1 w-full px-3 py-2 border border-gray-300 rounded text-sm focus:outline-none focus:ring-1 focus:ring-[#122B51]"
         />
         {errors.lastName && (
           <p className="text-red-500 text-xs mt-1">{errors.lastName}</p>
@@ -153,7 +153,7 @@ const ContactForm = () => {
           name="email"
           value={formData.email}
           onChange={handleChange}
-          className="mt-1 w-full px-3 py-2 border border-gray-300 rounded text-sm focus:outline-none focus:ring-1 focus:ring-blue-500"
+          className="mt-1 w-full px-3 py-2 border border-gray-300 rounded text-sm focus:outline-none focus:ring-1 focus:ring-[#122B51]"
         />
         {errors.email && (
           <p className="text-red-500 text-xs mt-1">{errors.email}</p>
@@ -170,7 +170,7 @@ const ContactForm = () => {
           name="organization"
           value={formData.organization}
           onChange={handleChange}
-          className="mt-1 w-full px-3 py-2 border border-gray-300 rounded text-sm focus:outline-none focus:ring-1 focus:ring-blue-500"
+          className="mt-1 w-full px-3 py-2 border border-gray-300 rounded text-sm focus:outline-none focus:ring-1 focus:ring-[#122B51]"
         />
       </div>
 
@@ -183,7 +183,7 @@ const ContactForm = () => {
           name="service"
           value={formData.service}
           onChange={handleChange}
-          className="mt-1 w-full px-3 py-2 border border-gray-300 rounded text-sm focus:outline-none focus:ring-1 focus:ring-blue-500"
+          className="mt-1 w-full px-3 py-2 border border-gray-300 rounded text-sm focus:outline-none focus:ring-1  focus:ring-[#122B51]"
         >
           <option value="">Select a Service</option>
           <option value="Indigenous Certificates">
@@ -194,7 +194,8 @@ const ContactForm = () => {
             University Certificates
           </option>
           <option value="Professional Licenses">Professional Licenses</option>
-          <option value="Government Document">Government Document</option>
+          <option value="Government Documents">Government Documents</option>
+          <option value="Custom Solutions">Custom Solutions</option>
         </select>
         {errors.service && (
           <p className="text-red-500 text-xs mt-1">{errors.service}</p>
@@ -212,7 +213,7 @@ const ContactForm = () => {
           onChange={handleChange}
           rows={4}
           placeholder="Tell us about your certification need..."
-          className="mt-1 w-full px-3 py-2 border border-gray-300 rounded text-sm focus:outline-none focus:ring-1 focus:ring-blue-500"
+          className="mt-1 w-full px-3 py-2 border border-gray-300 rounded text-sm focus:outline-none focus:ring-1 focus:ring-[#122B51]"
         />
         {errors.message && (
           <p className="text-red-500 text-xs mt-1">{errors.message}</p>

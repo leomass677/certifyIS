@@ -135,11 +135,11 @@ const AboutUs = () => {
               <span className="absolute left-0 -bottom-1 w-6 h-[2px] bg-primary-500 group-hover:w-full transition-all duration-500"></span>
             </h3>
             <p className="text-sm font-Roboto font-normal text-[16px] text-gray-700 wrap-break-word leading-snug">
-              Qamar Ahmed, the Founder and CEO of Certify, leads with a bold
-              vision rooted in innovation, integrity, and national impact. Under
-              his leadership, Certify continues to pioneer Nigeria’s digital
-              transformation, bridging traditional systems with cutting-edge
-              certification technology.
+              Qamar Ahmed, the Founder and CEO of Certify Integrated Solutions,
+              leads with a bold vision rooted in innovation, integrity, and
+              national impact. Under his leadership, Certify continues to
+              pioneer Nigeria’s digital transformation, bridging traditional
+              systems with cutting-edge certification technology.
             </p>
           </div>
         </motion.div>
